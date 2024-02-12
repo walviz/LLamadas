@@ -1,0 +1,37 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Anidado</title>
+</head>
+<body>
+
+  <label for="categoria">Selecciona una categoría:</label>
+  <select id="categoria">
+    <option value="frutas">Frutas</option>
+    <option value="verduras">Verduras</option>
+  </select>
+
+  <br>
+
+  <label for="producto">Selecciona un producto:</label>
+  <select id="producto">
+    <!-- Opciones para productos de frutas -->
+    <optgroup label="Frutas">
+      <option value="manzana">Manzana</option>
+      <option value="platano">Plátano</option>
+      <option value="naranja">Naranja</option>
+    </optgroup>
+    
+    <!-- Opciones para productos de verduras -->
+    <optgroup label="Verduras">
+      <option value="zanahoria">Zanahoria</option>
+      <option value="lechuga">Lechuga</option>
+      <option value="tomate">Tomate</option>
+    </optgroup>
+  </select>
+
+</body>
+</html>
